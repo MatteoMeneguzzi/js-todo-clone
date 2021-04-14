@@ -64,10 +64,12 @@ main ul.todos li i:hover {
 	cursor: pointer;
 }
 
+/* Nascondo il template */
 #template {
 	display: none;
 }
 
+/* Classe per segnare i to do completati */
 main ul.todos li span.completed {
 	text-decoration: line-through;
 }
