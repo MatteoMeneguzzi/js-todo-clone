@@ -4,3 +4,70 @@
 	margin: 0px;
 	font-family: "Raleway", sans-serif;
 }
+
+body {
+	background: #004643;
+	color: #fffffe;
+}
+
+.app {
+	max-width: 500px;
+	text-align: center;
+	padding: 50px;
+	margin: 0 auto;
+}
+
+h1 {
+	margin-bottom: 50px;
+}
+
+.app main input {
+	padding: 20px;
+	width: 100%;
+	margin-bottom: 50px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	background: #abd1c6;
+	transition: background 0.3s;
+}
+
+.app main input::placeholder {
+	color: white;
+}
+
+.app main input:hover,
+.app main input:focus {
+	background: #fff;
+}
+
+main ul.todos li {
+	padding: 20px 0px;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid white;
+}
+
+main ul.todos li:last-child {
+	border-bottom: none;
+}
+
+main ul.todos li i {
+	color: #abd1c6;
+	transition: color 0.3s;
+}
+
+main ul.todos li i:hover {
+	color: #ef4565;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#template {
+	display: none;
+}
+
+main ul.todos li span.completed {
+	text-decoration: line-through;
+}
